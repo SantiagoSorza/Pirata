@@ -1,0 +1,92 @@
+{
+  "version": 4,
+  "targets": {
+    "netstandard2.1": {
+      "Google.XR.Cardboard/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Google.XR.Cardboard.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Google.XR.Cardboard.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Google.XR.Cardboard/1.0.0": {
+      "type": "project",
+      "path": "Google.XR.Cardboard.csproj",
+      "msbuildProject": "Google.XR.Cardboard.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "netstandard2.1": [
+      "Google.XR.Cardboard >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\santi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\Pirata\\Google.XR.Cardboard.Editor.csproj",
+      "projectName": "Google.XR.Cardboard.Editor",
+      "projectPath": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\Pirata\\Google.XR.Cardboard.Editor.csproj",
+      "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\Pirata\\Temp\\obj\\Google.XR.Cardboard.Editor\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "framework": "netstandard2.1",
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\Pirata\\Google.XR.Cardboard.csproj": {
+              "projectPath": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\Pirata\\Google.XR.Cardboard.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.400"
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "framework": "netstandard2.1",
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
