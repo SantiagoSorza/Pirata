@@ -17,7 +17,7 @@ public class GrabObject : MonoBehaviour
     [SerializeField] public GameObject spawner;
 
     [Header("Eventos")]
-    public UnityEvent OnGrabbed; // NUEVO
+    public UnityEvent OnGrabbed; 
 
     private AudioSource player;
 
@@ -42,7 +42,7 @@ public class GrabObject : MonoBehaviour
         grabManager.heldItem = transform.gameObject;
         boxCollider.enabled = false;
 
-        OnGrabbed?.Invoke(); // NUEVO: avisa que se agarró
+        OnGrabbed?.Invoke();
     }
 
     public void Drop()

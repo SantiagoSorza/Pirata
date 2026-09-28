@@ -4,7 +4,7 @@ public class MovimientoBarco : MonoBehaviour
 {
     public float velocidad = 3f;
     public bool EstaControlando = false;
-    public bool LlegoADestino = false; // nuevo
+    public bool LlegoADestino = false; 
 
     void Update()
     {

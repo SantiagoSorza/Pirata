@@ -41,8 +41,8 @@ public class TeleportPoint : MonoBehaviour
 
         player.transform.position = spawnPoint.position - offsetCamara;
 
-        float rotY = spawnPoint.rotation.eulerAngles.y - camera.transform.localEulerAngles.y;
-        player.transform.rotation = Quaternion.Euler(0, rotY, 0);
+        //float rotY = spawnPoint.rotation.eulerAngles.y - camera.transform.localEulerAngles.y;
+        //player.transform.rotation = Quaternion.Euler(0, rotY, 0);
 
         if (cc != null) cc.enabled = true;
     }
